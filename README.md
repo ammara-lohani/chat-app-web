@@ -1,6 +1,6 @@
 # A Chat App in Web 
 
-This problem has
+This project has
 - Clear UI
 - minimalist design
 - send a message to anyone
@@ -9,7 +9,7 @@ This problem has
 - two panels ( both independent of each other)
 
 ## How to start it 
-
+## For Frontened
 First, CLone the repo, then 
 ### `npm start`
 
