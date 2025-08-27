@@ -24,9 +24,13 @@ You may also see any lint errors in the console.
 Open the code in Eclipse or IntelliJ 
 - clone the repo
 - run the project
- Both are connected 
-### Demo 
+ Both are connected
 
+### Issue 
+Regarding any issue
+Just mail me "ammaralohani@gmail.com" 
+
+### Demo 
 ![Banner](./public/11.PNG)
 ![Banner](./public/22.PNG)
 ![Banner](./public/33.PNG)
