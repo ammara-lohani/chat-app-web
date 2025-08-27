@@ -1,0 +1,28 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: my-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/my-app?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: Ammara@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    show-sql: true
+
+jwt:
+  secret: ${JWT_SECRET:lB3v9zfxmoA6tvNfCHO5NnJ6iYgjdE/SOBvfTz/EslD4jxIPlZz9ffcqPLg31vBj}
+
+logging:
+ level:
+  com.my-app: DEBUG
+  org.springframework.web: DEBUG
+  org.springframework.security: DEBUG
+  root: INFO
+
